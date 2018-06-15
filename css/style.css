@@ -4,6 +4,7 @@ body {
 }
 
 header {
+    min-height: 650px;
     height: 100vh;
     background-color: #555b64;
 }
