@@ -1,0 +1,417 @@
+body {
+    color: #828689;
+    min-width: 320px;
+}
+
+header {
+    height: 100vh;
+    background-color: #555b64;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header .headercol {
+    margin-top: 20vh;
+}
+
+.p1 {
+    font-weight: 700;
+    font-size: 31px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.p2 {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.btnhead {
+    width: 140px;
+    height: 40px;
+    transition: 1s;
+    border-radius: 5px;
+    border: none;
+}
+
+.btnhead i {
+    display: none;
+}
+
+.btnhead:hover {
+    background: #7ea4e8;
+}
+
+.btnhead:hover i {
+    display: inline;
+}
+
+h2 {
+    font: 600 30px 'Montserrat';
+    color: #6a7079;
+    text-transform: uppercase;
+}
+
+.goalsp1 {
+    font: 400 22px 'Ubuntu';
+    line-height: 30px;
+}
+
+.goalsp2 {
+    font: 400 17px 'Ubuntu';
+    line-height: 25px;
+}
+
+#goals .row {
+    padding-top: 110px;
+}
+
+.list-group {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+}
+
+.list-group-item.active {
+    background: #fff;
+    border: none;
+    color: #9097a1;
+    font: 700 18px 'Ubuntu';
+}
+
+.list-group-item {
+    background: #ececec;
+    border: none;
+    font: 700 18px 'Ubuntu';
+}
+
+.colin2 {
+    font-family: 'Ubuntu';
+    border: 3px solid #f2f2f2;
+    padding: 0 0;
+    margin: 0 0;
+    height: 100%;
+    position: relative;
+}
+
+.list-group-item {
+    font-size: 18px;
+}
+
+.pintab {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.tab-content {
+    font-size: 17px;
+    line-height: 25px;
+    color: #9097a1;
+}
+
+.rowintab {
+    padding-top: 10px !important;
+}
+
+.tab-content ul {
+    list-style: none;
+}
+
+.tab-content ul li {
+    margin-bottom: 13px;
+}
+.tab-content ul li:last-child {
+    margin-bottom: 30px;
+}
+
+.tab-content ul i {
+    color: #2cc7c1;
+}
+
+#speaker .card img {
+    max-width: 140px;
+    max-height: 140px;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+}
+
+.card {
+    border: none;
+}
+
+.card:hover .card-img-top {
+    display: none;
+}
+
+.twit {
+    display: none;
+}
+
+.card:hover .twit {
+    display: inline-block;
+}
+
+.card:hover h5 {
+    color: #6bd8d3;
+}
+
+.card:hover i {
+    visibility: visible;
+    color: #fff;
+}
+
+.card-text {
+    font: 400 15px 'Ubuntu';
+    line-height: 25px;
+}
+
+#speaker {
+    margin-top: 120px;
+}
+
+.pafter {
+    font: 400 22px 'Ubuntu';
+    line-height: 30px;
+    ;
+}
+
+.fulldiv {
+    border-bottom: 8px solid #f0f0f1;
+}
+
+#speaker .btn {
+    margin-bottom: 92px;
+}
+
+.download {
+    text-transform: uppercase;
+    font: 700 17px 'Montserrat';
+    color: #2cc7c1;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #828689;
+}
+
+#feature .list-group-item {
+    /* display: inline-block; */
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    cursor: pointer;
+}
+
+#feature .nav-tab {
+    border: 10px solid #f2f2f2;
+}
+
+#feature .nav-item a {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #9097a1;
+    border: none;
+}
+
+#feature .nav-item {
+    border-radius: 0px;
+}
+
+#feature .nav-item .nav-link.active {
+   background: #ececec;
+   border: none;
+   font: 700 18px 'Ubuntu';
+}
+
+#feature .tab-content button {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: #9097a1;
+}
+
+#feature .nav-item .nav-link.active {
+    background-color: #fff;
+}
+
+#feature .card-header {
+    background: #fff;
+}
+
+#feature .nav-tab {
+    border: none;
+    background: #ececec;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-item img {
+    height: auto;
+    width: 100%;
+}
+
+#feature .nav-item a {
+    height: 100%;
+    padding-top: 17px;
+}
+
+.row3 {
+    margin-top: 125px;
+}
+
+#feature ol li {
+    width: 16px;
+    height: 16px;
+    border-radius: 30px;
+    border: 3px solid #65d2ce;
+}
+
+#feature ol li.active {
+    background-color: #65d2ce;
+}
+
+#feature .carousel-indicators {
+    display: inline-flex;
+    left: -60%;
+    /* margin: 0; */
+}
+
+.prefooter {
+    background-color: #f3f3f3;
+    margin-top: 150px;
+}
+
+form {
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+
+.hh2 {
+    padding-top: 150px;
+}
+
+.username {
+    max-width: 210px;
+    height: 45px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #efefef;
+    border: none;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.username:focus {
+    background: #fff;
+    background-image: url('../img/tick.png');
+    background-size: 20px;
+    background-position-y: center;
+    background-position-x: 165px;
+    background-repeat: no-repeat;
+}
+
+.email:focus {
+    background: #fff;
+    border: 2px solid #b8ecea;
+    background-image: url('../img/tick.png');
+    background-size: 20px;
+    background-position-y: center;
+    background-position-x: 165px;
+    background-repeat: no-repeat;
+}
+
+.email {
+    max-width: 210px;
+    height: 45px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #efefef;
+    border: none;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.select {
+    max-width: 210px;
+    height: 45px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.btnhead1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 45px;
+}
+
+.imgsponsor {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.wrapperin {
+    margin-bottom: 150px;
+}
+
+.wrapper2 {
+    background: #fff;
+}
+
+#map {
+    height: 670px;
+}
+
+#footer {
+    background: #525b64;
+    padding-top: 90px;
+}
+
+.footerh3 {
+    font: 400 25px 'Ubuntu';
+    color: #fff;
+}
+
+.spanh3 {
+    font-weight: 700;
+}
+
+.pinfoot {
+    font: 300 15px 'Ubuntu';
+    color: #cdd0d2;
+}
+
+.footerh31 {
+    font: 400 20px 'Ubuntu';
+    color: #fff;
+}
+
+#footer a {
+    color: #2cc7c1;
+    font-weight: 500;
+}
+
+#footer a:hover {
+    color: #fff;
+}
+
+.confl {
+    background: #3f464c;
+}
+
+.plast {
+    color: #75797c;
+    margin-top: 85px;
+}
